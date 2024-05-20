@@ -1,0 +1,9 @@
+use test
+
+db.worldcup.insert({no:1, nation: "Singapore", date: "20240606"})
+db.worldcup.insert({no:2, nation: "China", date: "20240611"})
+db.worldcup.insert({no:3, nation: "Qualifier 3", date: "202409"})
+db.worldcup.insert({no:4, nation: "Qualifier 4", date: "202410"})
+db.worldcup.insert({no:5, nation: "Qualifier 5", date: "202411"})
+
+db.worldcup.find()
