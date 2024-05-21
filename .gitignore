@@ -1,5 +1,6 @@
 # environment files
 .env
+secret.json
 
 # nodejs node_modules
 **/node_modules
